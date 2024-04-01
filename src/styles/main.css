@@ -1,0 +1,30 @@
+.container {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem 1rem;
+}
+
+.card {
+    background-color: rgb(92, 92, 92);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px rgb(137, 142, 235);
+}
+
+.card:hover {
+    background-color: rgb(69, 69, 69);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(44, 47, 74);
+}
+
+.navbar {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
